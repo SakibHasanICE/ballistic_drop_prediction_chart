@@ -81,8 +81,8 @@ def print_table_chart(drop_chart):
 
 if __name__ == "__main__":
     input_prompt = (
-        "caliber: 0.200, bullet_weight: 368.0, bullet_length: 3.0, muzzle_velocity: 3700, "
-        "ballistic_coefficient: 0.70, barrel_length: 50.0, sight_height: 4.0, twist_rate: 11.0, "
+        "caliber: 0.100, bullet_weight: 268.0, bullet_length: 3.0, muzzle_velocity: 2700, "
+        "ballistic_coefficient: 0.70, barrel_length: 50.0, sight_height: 4.0, twist_rate: 10.0, "
         "temperature: 70, altitude: 500, humidity: 30, pressure: 29.92, wind_speed: 5, distance_from_zero: 200"
     )
 
@@ -97,3 +97,4 @@ if __name__ == "__main__":
         
         # Plot the data with values on the points
         plot_drop_chart(chart)
+        
